@@ -41,13 +41,13 @@
         <!-- get the binary -->
         <antcall target="check-source">
             <param name="target-dir" value="${lib-downloads}"/>
-            <param name="target-url" value="${github.url}/wildfly/wildfly/releases/download/${wildfly-version}"/>
+            <param name="target-url" value="${github.url}:wildfly/wildfly/releases/download/${wildfly-version}"/>
             <param name="target-file" value="${wildfly}.zip"/>
         </antcall>
         <!-- get the source -->
         <antcall target="check-source">
             <param name="target-dir" value="${lib-downloads}"/>
-            <param name="target-url" value="${github.url}/wildfly/wildfly/releases/download/${wildfly-version}"/>
+            <param name="target-url" value="${github.url}:wildfly/wildfly/releases/download/${wildfly-version}"/>
             <param name="target-file" value="${wildfly}-src.zip"/>
         </antcall>
     </target>

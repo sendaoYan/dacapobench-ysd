@@ -19,7 +19,7 @@
 
     <property name="git-group" value="jMonkeyEngine"/>
     <property name="git-project" value="jmonkeyengine"/>
-    <property name="bm-git-url" value="${github.url}/${git-group}/${git-project}"/>
+    <property name="bm-git-url" value="${github.url}:${git-group}/${git-project}"/>
     <property name="bm-git-commit" value="8ab3d24e104813745d78603095c4b27f96a05001"/>
 
     <import file="../common.xml"/>

@@ -27,7 +27,7 @@
     </condition>
 
     <property name="ycsb-version" value="0.17.0"/>
-    <property name="ycsb-git-url" value="https://github.com/brianfrankcooper/YCSB.git"/>
+    <property name="ycsb-git-url" value="git@github.com:brianfrankcooper/YCSB.git"/>
     <property name="ycsb-git-commit" value="${ycsb-version}"/>
     <property name="ycsb-tgz" value="ycsb-${ycsb-version}.tar.gz"/>
 

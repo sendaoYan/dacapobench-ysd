@@ -19,7 +19,7 @@
 
     <property name="git-group" value="h2oai"/>
     <property name="git-project" value="h2o-3"/>
-    <property name="bm-git-url" value="${github.url}/${git-group}/${git-project}"/>
+    <property name="bm-git-url" value="${github.url}:${git-group}/${git-project}"/>
     <property name="bm-git-commit" value="jenkins-${bm-version}"/>
 
     <import file="../common.xml"/>

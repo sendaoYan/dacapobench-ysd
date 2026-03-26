@@ -36,7 +36,7 @@
     <property name="jaxb-impl-name" value="jaxb-impl-${jaxb-version}.jar"/>
 
     <property name="hdrhistogram-version" value="2.1.12"/>
-    <property name="hdrhistogram-url" value="https://github.com/HdrHistogram/HdrHistogram/archive/refs/tags/"/>
+    <property name="hdrhistogram-url" value="git@github.com:HdrHistogram/HdrHistogram/archive/refs/tags/"/>
     <property name="hdrhistogram-name" value="HdrHistogram-${hdrhistogram-version}.zip"/>
 
     <property name="allocation-instrumenter-version" value="3.3.4"/>

@@ -15,7 +15,7 @@
     <property name="bm-version" value="v2.7.3"/>
     <property name="bm-version-str" value="jython ${bm-version}"/>
     <property name="bm-src" value="${bm-name}-src-${bm-version}.tar.gz"/>
-    <property name="bm-git-url" value="${github.url}/jython/${bm-name}"/>
+    <property name="bm-git-url" value="${github.url}:jython/${bm-name}"/>
     <property name="bm-git-commit" value="5f29801fec49fdf0d17d880a7cb83983d3528411"/>
 
     <import file="../common.xml"/>
